@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Demo Company</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <script src="headerScripts.js"></script>
+
+</head>
+<body>
+    <!-- Navbar Container -->
+    <div id="navbar-container"></div>
+    
+    <!-- Include the JavaScript file to load the navbar -->
+    <script src="loadNavbar.js"></script>
+    
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-52CLZLCX"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+<!-- OneTrust Privacy Notice start -->
+<!-- Container in which the privacy notice will be rendered -->
+<div id="otnotice-1c016968-64db-4875-b67a-a1ccc58bab5a" class="otnotice"></div>
+
+<script src="https://privacyportal-cdn.onetrust.com/privacy-notice-scripts/otnotice-1.0.min.js" type="text/javascript" charset="UTF-8" id="otprivacy-notice-script">
+    settings="eyJjYWxsYmFja1VybCI6Imh0dHBzOi8vcHJpdmFjeXBvcnRhbC5vbmV0cnVzdC5jb20vcmVxdWVzdC92MS9wcml2YWN5Tm90aWNlcy9zdGF0cy92aWV3cyJ9"
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+    // To ensure external settings are loaded, use the Initialized promise:
+    OneTrust.NoticeApi.Initialized.then(function() {
+        OneTrust.NoticeApi.LoadNotices(["https://privacyportal-cdn.onetrust.com/4962158d-3264-4272-b154-9a1abcdea088/privacy-notices/1c016968-64db-4875-b67a-a1ccc58bab5a.json"]);
+    });
+</script>
+
+<style>
+    .otnotice {
+        max-width: 70%;
+        margin: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+</style>
+<!-- OneTrust Privacy Notice end -->
+    
+    
+</body>
+</html>
